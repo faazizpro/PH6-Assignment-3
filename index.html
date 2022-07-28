@@ -9,7 +9,7 @@
     <!-- Font Awesome Scripts starts-->
     <script src="https://kit.fontawesome.com/a8e2726981.js" crossorigin="anonymous"></script>
     <!-- Font Awesome Scripts Ends-->
-
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <!-- Script -->
@@ -102,61 +102,69 @@
     <article>
       <!-- Popular Section -->
       <section class="container mb-5">
-        <h1 class="text-md-center ms-md-5 ms-lg-5 mb-md-5 fw-bold">Let's Have A Look <br> On Our Popular Courses</h1>
+        <h1 class="text-center ms-md-5 ms-lg-5 mb-4 fw-bold">Let's Have A Look <br> On Our Popular Courses</h1>
         <div class="all-courses">
-          <div class="row gy-md-5">
+          <div class="row gy-5">
 
             <div class="course d-lg-flex d-md-flex col-12 col-md-6 cols-lg-6">
-              <img src="images/course/course-1.png" alt="">
+              <div class="" >
+                <img src="images/course/course-1.png" class=" d-none d-md-block" alt="">
+                <img src="images/course/course-1.png" class="d-md-none d-block card-img-top pb-4" height="350" alt="">
+              </div>
               <div class="ms-md-3">
-                <h2>Fundamental Of UI/UX Design</h2>
-                <p>UI design and UX design are two of the most often confused and conflated terms in web and app design.</p>
-                <div class="price">Price : 20$</div>
+                <h3 class="fw-bold ">Fundamental Of UI/UX Design</h3>
+                <p class="">UI design and UX design are two of the most often confused and conflated terms in web and app design.</p>
+                <div class="price text-info fw-bold fs-5">Price : 20$</div>
               </div>
             </div>
             
             <div class="course d-lg-flex d-md-flex col-md-6 cols-lg-6">
-              <img src="images/course/course-2.png" alt="">
+              <img src="images/course/course-2.png" class="d-none d-md-block" alt="">
+              <img src="images/course/course-2.png" class="d-md-none d-block card-img-top pb-4" height="350" alt="">
               <div class="ms-md-3">
-                <h2>Javascript Basic to advanced</h2>
+                <h3 class="fw-bold">Javascript Basic to advanced</h3>
                 <p>JavaScript is a dynamic computer programming language. It is lightweight and most commonly used as a part of web pages.</p>
-                <div class="price">Price : 20$</div>
+                <div class="price text-info fw-bold fs-5">Price : 20$</div>
               </div>
             </div>
 
             <div class="course d-lg-flex d-md-flex col-md-6 cols-lg-6">
-              <img src="images/course/course-3.png" alt="">
+              <img src="images/course/course-3.png" class="d-none d-md-block" alt="">
+              <img src="images/course/course-3.png" class="d-md-none d-block card-img-top pb-4" alt="">
               <div class="ms-md-3">
-                <h2>Fullstack Web Development</h2>
+                <h3 class="fw-bold">Fullstack Web Development</h3>
                 <p>A full stack web developer is a person who can develop both client and server software.</p>
-                <div class="price">Price : 20$</div>
+                <div class="price text-info fw-bold fs-5">Price : 20$</div>
               </div>
             </div>
 
             <div class="course d-lg-flex d-md-flex col-md-6 cols-lg-6">
-              <img src="images/course/course-4.png" alt="">
+              <img src="images/course/course-4.png" class="d-none d-md-block" alt="">
+              <img src="images/course/course-4.png" class="d-md-none d-block card-img-top pb-4" alt="">
               <div class="ms-md-3">
-                <h2>Digital Marketing</h2>
+                <h3 class="fw-bold">Digital Marketing</h3>
                 <p>Digital marketing involves marketing to consumers through any number of digital channels.</p>
-                <div class="price">Price : 20$</div>
+                <div class="price text-info fw-bold fs-5">Price : 20$</div>
               </div>
             </div>
 
             <div class="course d-lg-flex d-md-flex col-md-6 cols-lg-6">
-              <img src="images/course/course-5.png" alt="">
+              <img src="images/course/course-5.png" class="d-none d-md-block" alt="">
+              <img src="images/course/course-5.png" class="d-md-none d-block card-img-top pb-4" alt="">
               <div class="ms-md-3">
-                <h2>Photography Basic Rules</h2>
+                <h3 class="fw-bold">Photography Basic Rules</h3>
                 <p>As in visual arts, composition in photography is simply the arrangement of visual elements within a frame.</p>
-                <div class="price">Price : 20$</div>
+                <div class="price text-info fw-bold fs-5">Price : 20$</div>
               </div>
             </div>
 
-            <div class="course d-lg-flex d-md-flex col-md-6 cols-lg-6">
-              <img src="images/course/course-6.png" alt="">
+            <div class="course d-lg-flex d-md-flex col-md-6 cols-lg-6 mb-5">
+              <img src="images/course/course-6.png" class="d-none d-md-block" alt="">
+              <img src="images/course/course-6.png" class="d-md-none d-block card-img-top pb-4" alt="">
               <div class="ms-md-3">
-                <h2>Motion Graphics</h2>
+                <h3 class="fw-bold">Motion Graphics</h3>
                 <p>Motion Graphics is extremely connected with the advances in technology, their evolution is intertwined.</p>
-                <div class="price">Price : 20$</div>
+                <div class="price text-info fw-bold fs-5">Price : 20$</div>
               </div>
             </div>
             
@@ -172,35 +180,37 @@
 
     <article>
       <!-- Institute Info Starts-->
-      <section class="container mb-md-5 mt-md-5" >
-        <div class="row" style="background-color: #F4FAFD;">
-          <div class="col-md-6">
-            <img src="images/working.png" alt="">
+      <section class="container mb-md-5 mt-md-5">
+        <div class="institute-bg">
+          <div class="row row-cols-1 row-cols-md-2" >
+          <div class="col ">
+            <img src="images/working.png" class="img-fluid" alt="">
+            
           </div>
 
-          <div class="col-md-6 d-md-flex justify-content-md-center align-items-md-center">
-            <div class="mb-5">
+          <div class="col d-md-flex justify-content-md-center align-items-md-center">
+            <div class="mb-5 ">
               <h1 class="fw-bold display-5 mb-md-4">Explore The elearning <br> Institute</h1>
-              <p class="mb-md-4">The Learning Institute provides opportunities for individuals and communities through high quality education, training and research programmes that challenge personal barriers and promote social inclusion.</p>
+              <p class="mb-md-4 text-secondary fw-semibold">The Learning Institute provides opportunities for individuals and communities through high quality education, training and research programmes that challenge personal barriers and promote social inclusion.</p>
 
-              <p>With dedicated tutors and support for our students, trainees and apprentices, we’re with you all the way.
+              <p class="text-secondary fw-semibold">With dedicated tutors and support for our students, trainees and apprentices, we’re with you all the way.
               </p>
 
               
-                <div class="d-md-flex pt-md-3">
-                  <div class="pe-md-5">
+                <div class="d-md-flex pt-md-3 row">
+                  <div class="pe-md-5 col-6">
                     <h1 class="fw-bold">3.2K+</h1>
-                    <p>Online Course</p>
+                    <p class="text-secondary fw-bold">Online Course</p>
                   </div>
       
-                  <div class="pe-md-5">
+                  <div class="pe-md-5 col-6">
                     <h1 class="fw-bold">600+</h1>
-                    <p>Expert member</p>
+                    <p class="text-secondary fw-bold">Expert member</p>
                   </div>
       
                   <div>
                     <h1 class="fw-bold">1k+</h1>
-                    <p>Rating & Review</p>
+                    <p class="text-secondary fw-bold">Rating & Review</p>
                   </div>
                 </div>
 
@@ -208,7 +218,8 @@
                 <div class="text-md-start mt-md-5 mb-md-5 "><button type="button" class="btn btn-primary pt-3 pb-3 ps-5 pe-5 fw-bold fs-5">Read More</button></div>
               </div>
             </div>
-          </div>
+          </div></div>
+        
 
         </div>
         </div>
@@ -219,14 +230,34 @@
     <article>
       <!-- Ready To Join Section Starts -->
       <section class="container">
-        <div class="bg-primary d-flex justify-content-md-around justify-content-lg-around align-items-center pt-md-5 pt-lg-5 pb-md-5 pb-lg-5 mb-md-5 mb-lg-5 rounded-3">
-          <div>
-            <h1 class="text-white">Ready to join?</h1>
-            <p class="text-white">We are going to release our first Front-End-Development course. <br>Book your seat to touch your dream. We will assist you to make your dream true.</p>
+        <div class="bg-primary d-md-flex justify-content-md-around  align-items-md-center pt-md-5  pb-md-5  mb-md-5 rounded-3">
+          <div class="">
+            <h1 class="text-white text-center text-md-start pt-4">Ready to join?</h1>
+            <p class="text-white text-center text-md-start pt-4 pb-4 fs-5 ">We are going to release our first Front-End-Development course. <br>Please Book your seat within the deadline to touch your dream.</p>
           </div>
 
           <div>
-            <div class="text-md-start mt-md-5 mb-md-5 "><button type="button" class="btn btn-light pt-3 pb-3 ps-5 pe-5 fw-bold fs-5 text-primary">Register Now</button></div>
+            <div class=" mt-md-5 mb-5 text-center"><button type="button" class="btn btn-light mt-md-5 mb-5 pt-1 pt-md-3 pb-1 pb-md-3 ps-2 ps-md-5 pe-2 pe-md-5 fw-bold fs-5 text-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Register Now</button>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Registration Information</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    You Registration Has Been Submitted. You will Call You.
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Mdodal -->
+            </div>
           </div>
         </div>
       </section>
@@ -416,7 +447,7 @@
 
     <article>
       <!-- Trusted by Section -->
-      <section class="container">
+      <section class="container d-none d-sm-block">
         <h1 class="text-center display-4 fw-bold mt-5 mb-5">Trusted by over 800+ companies</h1>
 
         <div class="companies d-flex justify-content-between mb-5">
